@@ -1,1 +1,4 @@
-# empty
+thorgilman:
+  name: Thor Gilman
+  email: thor123@askthemis.com
+  password_digest: <%= User.digest('password') %>
