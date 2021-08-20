@@ -14,5 +14,5 @@ Rails.application.routes.draw do
   post '/login',    to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
 
-  resources :users # sets up standard REST urls for create, update, destory, etc...
+  resources :users # sets up standard REST urls for create, update, destroy, etc...
 end
